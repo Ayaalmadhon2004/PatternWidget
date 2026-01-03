@@ -8,8 +8,11 @@ export interface NewsItem {
 
 export class NewsAdapter {
   static adapt(data: ExternalNews[]): NewsItem[] {
-    return data.map((item) => ({
+    const adapted = data.map((item) => ({
       title: item.headline,
     }));
+
+    console.log('After Adapter:', adapted);
+    return adapted;
   }
 }
