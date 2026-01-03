@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+PatternWidget
 
-## Getting Started
+PatternWidget is a small educational Next.js application created to demonstrate core Software Design Patterns and UML relationships in a practical, interactive way.
+The project focuses on clarity, simplicity, and real-world usage rather than scale.
 
-First, run the development server:
+🚀 Technologies Used
 
-```bash
+Next.js (App Router)
+
+React
+
+TypeScript
+
+Tailwind CSS
+
+Git & GitHub
+
+🎯 Design Patterns Implemented
+
+Singleton Pattern
+Used for global application configuration (theme management).
+
+Observer Pattern
+Used to notify components when tasks are added or updated.
+
+Strategy Pattern
+Different task-adding behaviors (simple vs validated strategies).
+
+Decorator Pattern
+Enhances widgets visually by adding borders and styles without modifying core logic.
+
+Adapter Pattern
+Adapts external or different interfaces to fit the application structure.
+
+📐 UML Relationships Demonstrated
+
+Association
+
+Dependency
+
+Generalization
+
+Realization
+
+These relationships are reflected in the project’s structure and TypeScript interfaces.
+
+🧩 Application Features
+
+Interactive Todo Widget
+
+Light / Dark theme toggle
+
+Responsive layout (mobile & desktop)
+
+Clean and modular folder structure
+
+Clear separation between UI and logic
+
+📁 Project Structure
+app/            → Pages and layout (Next.js App Router)
+components/     → UI components
+decorators/     → Decorator pattern
+strategies/     → Strategy pattern implementations
+observers/      → Observer pattern
+lib/            → Singleton & Adapter logic
+hooks/          → Custom hooks
+interfaces/     → TypeScript interfaces
+
+▶️ Getting Started
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Open http://localhost:3000 in your browser.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🎓 Purpose
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project was built for academic learning to apply theoretical design patterns in a real Next.js application, while also serving as a portfolio-ready GitHub project.
