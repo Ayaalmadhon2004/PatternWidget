@@ -2,7 +2,7 @@ export const withBorder = <T,>(Component: React.FC<T>) => {
   const WrappedComponent: React.FC<T> = (props) => (
     <div
       style={{
-        border: '2px solid #0070f3',
+        border: '2px solid #0e3b6dff',
         padding: '20px',
         marginTop: '20px',
         borderRadius: '10px',
